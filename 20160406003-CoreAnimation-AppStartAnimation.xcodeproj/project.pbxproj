@@ -15,6 +15,12 @@
 		D59D3D051CB513A300443460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D3D031CB513A300443460 /* LaunchScreen.storyboard */; };
 		D59D3D101CB513A300443460 /* _0160406003_CoreAnimation_AppStartAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3D0F1CB513A300443460 /* _0160406003_CoreAnimation_AppStartAnimationTests.m */; };
 		D59D3D1B1CB513A300443460 /* _0160406003_CoreAnimation_AppStartAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3D1A1CB513A300443460 /* _0160406003_CoreAnimation_AppStartAnimationUITests.m */; };
+		D59D3D2A1CB5147600443460 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3D291CB5147600443460 /* StartView.m */; };
+		D59D3D2C1CB5148900443460 /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59D3D2B1CB5148900443460 /* StartView.xib */; };
+		D5B6C20F1CB60B8B00EAE8D4 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B6C20D1CB60B8B00EAE8D4 /* MenuViewController.m */; };
+		D5B6C2101CB60B8B00EAE8D4 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B6C20E1CB60B8B00EAE8D4 /* MenuViewController.xib */; };
+		D5B6C2131CB60DE500EAE8D4 /* MenuItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B6C2121CB60DE500EAE8D4 /* MenuItemModel.m */; };
+		D5B6C2161CB632C100EAE8D4 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B6C2151CB632C100EAE8D4 /* MenuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		D59D3D161CB513A300443460 /* 20160406003-CoreAnimation-AppStartAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160406003-CoreAnimation-AppStartAnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59D3D1A1CB513A300443460 /* _0160406003_CoreAnimation_AppStartAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160406003_CoreAnimation_AppStartAnimationUITests.m; sourceTree = "<group>"; };
 		D59D3D1C1CB513A300443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D3D281CB5147600443460 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartView.h; sourceTree = "<group>"; };
+		D59D3D291CB5147600443460 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartView.m; sourceTree = "<group>"; };
+		D59D3D2B1CB5148900443460 /* StartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartView.xib; sourceTree = "<group>"; };
+		D5B6C20C1CB60B8B00EAE8D4 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		D5B6C20D1CB60B8B00EAE8D4 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		D5B6C20E1CB60B8B00EAE8D4 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		D5B6C2111CB60DE500EAE8D4 /* MenuItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemModel.h; sourceTree = "<group>"; };
+		D5B6C2121CB60DE500EAE8D4 /* MenuItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemModel.m; sourceTree = "<group>"; };
+		D5B6C2141CB632C100EAE8D4 /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		D5B6C2151CB632C100EAE8D4 /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,16 @@
 				D59D3CF91CB513A300443460 /* AppDelegate.m */,
 				D59D3CFB1CB513A300443460 /* ViewController.h */,
 				D59D3CFC1CB513A300443460 /* ViewController.m */,
+				D59D3D281CB5147600443460 /* StartView.h */,
+				D59D3D291CB5147600443460 /* StartView.m */,
+				D59D3D2B1CB5148900443460 /* StartView.xib */,
+				D5B6C20C1CB60B8B00EAE8D4 /* MenuViewController.h */,
+				D5B6C20D1CB60B8B00EAE8D4 /* MenuViewController.m */,
+				D5B6C20E1CB60B8B00EAE8D4 /* MenuViewController.xib */,
+				D5B6C2111CB60DE500EAE8D4 /* MenuItemModel.h */,
+				D5B6C2121CB60DE500EAE8D4 /* MenuItemModel.m */,
+				D5B6C2141CB632C100EAE8D4 /* MenuButton.h */,
+				D5B6C2151CB632C100EAE8D4 /* MenuButton.m */,
 				D59D3CFE1CB513A300443460 /* Main.storyboard */,
 				D59D3D011CB513A300443460 /* Assets.xcassets */,
 				D59D3D031CB513A300443460 /* LaunchScreen.storyboard */,
@@ -245,7 +271,9 @@
 			files = (
 				D59D3D051CB513A300443460 /* LaunchScreen.storyboard in Resources */,
 				D59D3D021CB513A300443460 /* Assets.xcassets in Resources */,
+				D5B6C2101CB60B8B00EAE8D4 /* MenuViewController.xib in Resources */,
 				D59D3D001CB513A300443460 /* Main.storyboard in Resources */,
+				D59D3D2C1CB5148900443460 /* StartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +301,10 @@
 				D59D3CFD1CB513A300443460 /* ViewController.m in Sources */,
 				D59D3CFA1CB513A300443460 /* AppDelegate.m in Sources */,
 				D59D3CF71CB513A300443460 /* main.m in Sources */,
+				D5B6C2131CB60DE500EAE8D4 /* MenuItemModel.m in Sources */,
+				D5B6C2161CB632C100EAE8D4 /* MenuButton.m in Sources */,
+				D59D3D2A1CB5147600443460 /* StartView.m in Sources */,
+				D5B6C20F1CB60B8B00EAE8D4 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +528,7 @@
 				D59D3D211CB513A300443460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D59D3D221CB513A300443460 /* Build configuration list for PBXNativeTarget "20160406003-CoreAnimation-AppStartAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				D59D3D241CB513A300443460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D59D3D251CB513A300443460 /* Build configuration list for PBXNativeTarget "20160406003-CoreAnimation-AppStartAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				D59D3D271CB513A300443460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

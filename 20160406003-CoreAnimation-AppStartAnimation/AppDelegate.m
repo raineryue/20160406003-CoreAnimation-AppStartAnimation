@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "StartView.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 1.创建主窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.设置根控制器
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    UIViewController *viewController = [storyboard instantiateInitialViewController];
+    
+    self.window.rootViewController = viewController;
+    
+    // 3.显示窗口
+    [self.window makeKeyAndVisible];
+    
+    // 4.创建启动动画视图对象
+    StartView *startView = [StartView startView];
+    
+    // 5.设置启动动画的位置大小
+    startView.frame = self.window.bounds;
+    
+    // 6.将启动动画添加到主窗口上
+    [self.window addSubview:startView];
+    
     return YES;
 }
 
